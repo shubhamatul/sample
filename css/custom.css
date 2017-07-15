@@ -239,8 +239,8 @@ body{
 }
 
 .graph-container{
-    width: 80%;
-    margin: 30px 10%;
+    width: 100%;
+    margin: 30px 10px;
     background-color: #fff;
     height: 400px;
 }
