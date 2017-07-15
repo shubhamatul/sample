@@ -45,7 +45,7 @@ body{
   top: 50px;
   bottom: 50px;
   cursor: pointer;
-  border-right: 1px solid; 
+  /*border-right: 1px solid; */
 }
 .navbar-inverse{
     background-color: rgb(31, 119, 180);
@@ -118,7 +118,7 @@ body{
   background-color: #e5e5e5;/*#181c20;*/
   border: none;
   line-height: 28px;
-  border-bottom: 1px solid #23282e;
+ /* border-bottom: 1px solid #23282e;*/
   margin-left: 0px;
 }
 .nav-side-menu ul .sub-menu li:hover,
@@ -140,7 +140,7 @@ body{
 .nav-side-menu li {
   padding-left: 0px;
   border-left: 3px solid #2e353d;
-  border-bottom: 1px solid #23282e;
+  /*border-bottom: 1px solid #23282e;*/
 }
 .nav-side-menu li a {
   text-decoration: none;
