@@ -38,16 +38,24 @@ body{
   font-family: verdana;
   font-size: 12px;
   font-weight: 200;
-  background-color: #222;/*#2e353d;*/
+  background-color:#e5e5e5;/*#f0f2f5; #222;#2e353d;*/
   position: fixed;
   width: 15%;
   color: #9d9d9d;/*#e1ffff;*/
   top: 50px;
   bottom: 50px;
   cursor: pointer;
+  border-right: 1px solid; 
 }
-
-
+.navbar-inverse{
+    background-color: rgb(31, 119, 180);
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-text{
+    color: #fff;
+}
 .nav-side-menu .brand {
   background-color: #222;/*#23282e;*/
   line-height: 50px;
@@ -106,7 +114,7 @@ body{
 }
 .nav-side-menu ul .sub-menu li,
 .nav-side-menu li .sub-menu li {
-  background-color: #181c20;
+  background-color: #e5e5e5;/*#181c20;*/
   border: none;
   line-height: 28px;
   border-bottom: 1px solid #23282e;
@@ -133,7 +141,7 @@ body{
 }
 .nav-side-menu li a {
   text-decoration: none;
-  color: #9d9d9d;/*#e1ffff;*/
+  color: darkslategrey;/*#fff;#9d9d9d;#e1ffff;*/
 }
 .nav-side-menu li:hover a, .nav-side-menu li.active a{
     color: #fff;
@@ -192,6 +200,8 @@ body{
     position: fixed;
     background-color: #f0f2f5;
     width: 85%;
+    height: auto;
+    overflow: scroll;
 }
 
 .breadcrum{
@@ -220,7 +230,7 @@ body{
     color: #999999;
 }
 .graph-selector{
-    float: right;
+    float: left;
     padding: 12px 25px;
     color: #999999;
 }
@@ -233,4 +243,22 @@ body{
 }
 .btn-group.bootstrap-select span.filter-option.pull-left{
     color: #999999;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: rgb(31, 119, 180);
+    border-color: rgb(31, 119, 180);
+}
+.button-div{
+    float: left;
+    padding: 12px 25px;
+    /*color: #999999;*/
+}
+
+text.nv-pie-title{
+    font-size: 12px !important;
+    
+    fill:black !important;
+    
 }

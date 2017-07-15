@@ -5,20 +5,19 @@
       $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
     });
 
-    $('.nav-side-menu ul li').click(function(){
-        $('.nav-side-menu ul li').removeClass("active");
-        $(this).addClass("active");
-    })
-
-    $(".main-container").hide();
+    
     $(".graph-container").hide();
-    $("#graph").change(function(){
-        showGraph();
-    });
+    // $("#graph").change(function(){
+    //     showGraph();
+    // });
     $("#company").change(function(){
          $('.breadcrum span').html("Dashboard (Company Analysis) &nbsp;&nbsp;>&nbsp;&nbsp; "+ $("#company").val());
+       // showGraph()
+    });
+    $(".btn.btn-primary").click(function(){
         showGraph()
     });
+     
  });
 
  function showGraph(){
@@ -27,7 +26,7 @@
     var company = $("#company").val()
     var graph = $("#graph").val()
     if(company.length>0 && graph.length>0){
-        if(graph.indexOf("Segment")!=-1)
+        if(graph.indexOf("Geography")!=-1)
         {
             if(company.indexOf("AAPL")!=-1){
                 convertSegment("../data/AAPL_2016.csv");
@@ -138,6 +137,3 @@ function reset(){
     $('.breadcrum span').html("Dashboard (Company Analysis)");
 }
 
-function hideAll(){
-    $(".main-container").hide();
-}
