@@ -131,9 +131,10 @@ body{
   /*background-color: #4f5b69;*//*#020203;*/
   background-color:darkslategrey;
 }
-.navbar-inverse .navbar-nav>.open>a:focus{
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus{
     background-color:darkslategrey;
 }
+
 .nav-side-menu ul .sub-menu li:before,
 .nav-side-menu li .sub-menu li:before {
   font-family: FontAwesome;
