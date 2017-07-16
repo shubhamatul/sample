@@ -101,7 +101,8 @@ body{
 .nav-side-menu li .active {
   /*border-left: 3px solid #337ab7;*//*#d19b3d;*/
   /*background-color: #4f5b69;*/
-  background-color: #337ab7;
+  /*background-color: #337ab7;*/
+  background-color:darkslategrey;
 }
 .nav-side-menu ul .sub-menu li.active,
 .nav-side-menu li .sub-menu li.active {
@@ -123,10 +124,15 @@ body{
 }
 .nav-side-menu ul .sub-menu li:hover,
 .nav-side-menu li .sub-menu li:hover {
-    background-color: #337ab7;
+   /* background-color: #337ab7;*/
+   background-color:darkslategrey;
 }
 .navbar-right>li:hover{
-  background-color: #4f5b69;/*#020203;*/
+  /*background-color: #4f5b69;*//*#020203;*/
+  background-color:darkslategrey;
+}
+.navbar-inverse .navbar-nav>.open>a:focus{
+    background-color:darkslategrey;
 }
 .nav-side-menu ul .sub-menu li:before,
 .nav-side-menu li .sub-menu li:before {
@@ -156,7 +162,8 @@ body{
 }
 .nav-side-menu li:hover {
   /*border-left: 3px solid #d19b3d;*/
-  background-color: #337ab7; /*#4f5b69;*/
+  /*background-color: #337ab7;*/ /*#4f5b69;*/
+  background-color:darkslategrey;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
