@@ -75,7 +75,6 @@ function drawPV(data){
         chart = nv.models.linePlusBarChart()
             .margin({top: 50, right: 80, bottom: 30, left: 80})
             .color(d3.scale.category10().range())
-           
             .legendRightAxisHint('');
 
         chart.xAxis.tickFormat(function(d) {
@@ -92,7 +91,7 @@ function drawPV(data){
 
         d3.select('.graph-container svg')
             .datum(data)
-            .transition().duration(2000).call(chart);
+            .transition().duration(500).call(chart);
 
         nv.utils.windowResize(chart.update);
 
